@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f9;
+}
+
+/* HEADER */
+h1 {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #4f46e5, #6366f1);
+  color: white;
+  margin: 0;
+  border-radius: 0 0 20px 20px;
+}
+
+/* LAYOUT */
+.dashboard {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* FORM */
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+form input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+form input:focus {
+  border-color: #4f46e5;
+  outline: none;
+}
+
+form button {
+  grid-column: span 2;
+  padding: 12px;
+  background: linear-gradient(to right, #4f46e5, #6366f1);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  transform: scale(1.02);
+}
+
+/* TABLE */
+.lead-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.lead-table th {
+  background: linear-gradient(to right, #4f46e5, #6366f1);
+  color: white;
+  padding: 14px;
+  text-align: left;
+}
+
+.lead-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.lead-table tr:hover {
+  background: #f9fafb;
+}
+
+/* STATUS COLORS */
+.status-new {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.status-contacted {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-qualified {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-closed {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* SELECT */
+select {
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* BUTTON */
+button:hover {
+  opacity: 0.9;
+}
+
+
+/* LOGIN CONTAINER */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+}
+
+/* LOGIN CARD */
+.login-card {
+  width: 350px;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* INPUT FIELDS */
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+/* BUTTON */
+.login-card button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 12px;
+  background: linear-gradient(to right, #4f46e5, #6366f1);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+/* SEARCH BOX */
+.search-box {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-box:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGOUT BUTTON */
+.logout-btn {
+  padding: 8px 14px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  opacity: 0.9;
+}
